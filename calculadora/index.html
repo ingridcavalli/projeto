@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Rodrigues">
+    <title>Calculadora js</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calculadora.js"></script>
+    
+</head>
+<body>
+    <header class="container">
+        <figure>
+            <img src="images/" alt="" title="logo do slide">
+
+        </figure>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Info</a>
+            <a href="#">Contato</a>
+            <a href="#">Dicas</a>
+        </nav>
+    </header>
+    
+    <main class="container" >
+        <section>
+            Informações do projeto 
+        </section>
+
+        <section>
+            <form class="form">
+                Numero 1:<input type="number" id="num1" name="num1"
+                        required placeholder="Informe um numero qualquer">
+                    
+                    Numero 2:<input type="number" id="num2" name="num2"
+                        required placeholder="Informe um numero qualquer">
+                    <input type="button" id="btn1" value="somar"
+                            onclick="soma();">
+                    <input type="button" id="btn2" value="subtrair"
+                            onclick="subtrai();">
+                    <input type="button" id="btn3" value="multiplicar"
+                            onclick="multiplica();">
+                    <input type="button" id="btn4" value="Dividir"
+                            onclick="divide();">
+                    <input type="button" id="btn5" value="Potenciação"
+                            onclick="potenciacão();">
+                    <input type="button" id="btn6" value="Raiz"
+                            onclick="raiz();">
+                    <input type="button" id="btn7" value="Fatoração"
+                            onclick="fatoracao();">
+                    <input type="button" id="btn7" value="Logaritmação"
+                            onclick="log();">
+        
+                Resultado: <input type="text" id="resultado" name="resul">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
